@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,56 +11,147 @@
       <nav>
         <a href="#">
           <img
-            src="./semana-1-1/foto de perfil moises FB.jpeg"
+            src="./img/Imagen Moises Formal short .jpeg"
             alt="Foto de Moises Arrieta"
             width="180px"
           />
         </a>
-        <!-- <ul>
-            <li><a href="#">Perfil</a></li>
-            <li><a href="#">Experiencia</a></li>
-            <li><a href="#">Habilidades</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul> -->
+        <ul>
+          <li><a href="#">Perfil</a></li>
+          <li><a href="#">Experiencia</a></li>
+          <li><a href="#">Habilidades</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <article>
-        <h1>Moises Arrieta</h1>
-        <h2>🤖Desarrollador🤖 / 💻Frontend💻 / ⚛React⚛ / 🎮Videogames🎮 /</h2>
+      <article class="profile">
+        <div>
+        <h1>Hola, yo soy Moises Arrieta, Desarrollador de sueños.</h1>
         <p>
-          Estudiante de Frontend y Backend, apasionado de los videojuegos,
-          amante del deporte, ciclista, apasionado del autoaprendizaje y
-          crecimiento personal.
+          Estudiante de Frontend y backend en Codigo, futuro desarrollador.
+          Apasionado del autoaprendizaje con el deseo de crecer en el Desarrollo
+          Web Frontend. 
         </p>
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Git</li>
-        </ul>
+      </div>
+        <div>
+          <button>CV</button>
+          <button>Portafolio</button>
+        </div>
+
+        <figure>
+          <img
+            src="./img/Imagen Moises Viaje.jpeg"
+            alt="Foto de Moises Arrieta"
+            width="320px"
+          />
+        </figure>
       </article>
+      <h2>Experiencia</h2>
+      <table border="thead">
+        <thead>
+          <tr>
+            <th>N</th>
+          <th>Empresa</th>
+          <th>Cargo</th>
+          <th>Funciones</th>
+          <th>Periodo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Andromeda technology</td>
+            <td>Ayudante de instalación</td>
+            <td>
+              <ul>
+                <li>Instalación de cableados</li>
+                <li>Revision de equipos de seguridad</li>
+                <li>Reinstalación de equipos de seguridad</li>
+              </ul>
+            </td>
+            <td>
+              Enero 2021, Diciembre 2021 
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>AUTOS FORCE</td>
+            <td>Trabajador Especializado</td>
+            <td>
+              <ul>
+                <li>Mantenimiento/Tratamiento de Pintura</li>
+                <li>Lavados de salon</li>
+                <li>Undercoating</li>
+              </ul>
+            </td>
+            <td>
+              Abril 2020, Diciembre 2020
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Guty Restaurant</td>
+            <td>Asistente de cocina/Mozo</td>
+            <td>
+              <ul>
+                <li>Preparación de platillos marinos</li>
+                <li>Atención al cliente</li>
+              </ul>
+            </td>
+            <td>
+              Enero 2020, Marzo 2020
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+      <section>
+      <form action="">
+        <h2>Contacto</h2>
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" placeholder="Nombre" name="nombre" required/>
+        <hr>
+        <label for="email">Correo</label>
+        <input type="email" id="email" placeholder="Correo" required />
+        <hr>
+<textarea placeholder="Mensaje" name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+        <hr>
+        <label for="celular">Celular</label>
+        <input type="number" id="celular" placeholder="Celular" min="900000000" max="999999999"/>
+        <hr>
+        <h2>Plan</h2>
+        <input type="radio" name="plan" id="pro" value="pro">
+        <label for="pro">Pro</label>
+        <input type="radio" name="plan" id="medio" value="medio">
+        <label for="medio">Medio</label>
+        <input type="radio" name="plan" id="Básico" value="Básico">
+        <label for="Básico">Básico</label>
+        <hr>
+        <label for="proyecto">Sueño a realizar</label>
+        <select name="proyecto" id="proyecto">
+          <option value="landing page">Landing page</option>
+          <option value="web page">Web page</option>
+          <option value="e-commerce">e-commerce</option>
+          <option value="aplicacion empresarial">Aplicación empresarial</option>
+        </select>
+        <hr>
+        <h2>Secciones adicionales</h2>
+        <input type="checkbox" name="lenguaje" id="SEO">
+        <label for="SEO">SEO</label>
+        <input type="checkbox" name="lenguaje" id="diseño">
+        <label for="diseño">Diseño</label>
+        <input type="checkbox" name="lenguaje" id="marketing">
+        <label for="marketing">Marketing</label>
+        <hr>
+        <input type="reset" value="Limpiar datos" />
+      </form>
+    </section>
+    <section>
+     
     </main>
+  
     <footer>
-      <a
-        href="https://www.facebook.com/moisesjose.arrietavelasquez"
-        target="_blank"
-        >Facebook Moises Arrieta
-        <img
-          src="https://cdn-icons.flaticon.com/png/128/2504/premium/2504903.png?token=exp=1643141627~hmac=f9ed68b9901c759aedbedf0e3bd1b6fc"
-          alt="Logo de Facebook"
-          width="100px"
-        />
-      </a>
-      <a href="https://www.instagram.com/arrietamoises/?hl=es" target="_blank"
-        >Instagram Moises Arrieta
-        <img
-          src="https://i.blogs.es/c04a74/instagram/450_1000.jpg"
-          alt="Logo de instagram"
-          width="100px"
-        />
-      </a>
       Desarrollado por Moises Arrieta &copy; 2022
     </footer>
   </body>
